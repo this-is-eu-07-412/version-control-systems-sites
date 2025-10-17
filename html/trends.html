@@ -6,7 +6,7 @@
     <title>VCS trends</title>
 </head>
 <body>
-        <nav>
+    <nav>
         <table>
             <tr>
                 <td>
@@ -26,21 +26,34 @@
         <ul>
             <li>
                 <h2>GitOps</h2>
-                <p></p>
+                <p>Is a practice of using git to control everything. It gives a lot of control and allows for easy restoration/rollback if soemthing goes wrong, as well as keeping track of chanegs made to configuration files.</p>
             </li>
             <li>
                 <h2>Cloud based collaboration</h2>
+                <p>Uses one of the platforms like GitHub, GitLab etc. to collaborate on codebase on a company-wide scale. Not only git features are used, but additional features of platforms like issues and pull/merge requests which make working in a team much easier than using pure git or any other VCS. The procedure can vary depending of inner policies in a company.</p>
             </li>
             <li>
-                <h2>Development pipelines</h2>
-                <ol>
-                    <!-- Put the IRL use case here -->
-                    <li>
-
-                    </li>
-                </ol>
+                <h2>AI assisted code reviews</h2>
+                <p>AI is used to help with VCS, in cases like merge conflicts and help to detect errors/ issues on if it has access to repository as context. This approach arguments and automates some part of the work.</p>
             </li>
         </ul>
+        <h1>Development pipeline</h1>
+        <p>In summary real-life use case for VCS nowaday may look like this:</p>
+        <ol>
+            <li>Creating a branch for specific case/ issue</li>
+            <li>Editing code on local repository copy</li>
+            <li>Making a pull request for the changes</li>
+            <li>Automated and manual code testing and review</li>
+            <li>
+                <ol>
+                    <p>Either:</p>
+                    <li>Pull request is not accepted and it's back to step 2</li>
+                    <li>Pull request is accepted and merged into main branch</li>
+                </ol>
+            </li>
+            <li>Changes are automatically deployed</li>
+            <li>If needed changes can be reverted</li>
+        </ol>
     </div>
     <footer>
          <b>Source:</b><a href="https://ftims.edu.p.lodz.pl/pluginfile.php/289501/mod_resource/content/1/History%20and%20Modern%20Trends%20in%20Version%20Control%20Systems.pdf">History and Modern Trends in Version Control Systems</a>
